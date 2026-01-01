@@ -27,3 +27,7 @@ Branch:
 git checkout -b Dockerfile_branch
 git add .
 git commit -m "added commands.txt file"
+git add .
+git commit -m "added docker file"
+docker build -t josephrechdiner/streamlit_app_image .
+docker run -p 8080:8080 josephrechdiner/streamlit_app_image:latest

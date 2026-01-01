@@ -33,3 +33,7 @@ docker build -t josephrechdiner/streamlit_app_image .
 docker run -p 8080:8080 josephrechdiner/streamlit_app_image:latest
 git add .
 git commit -m "added to command file"
+==================================================================
+Branch:
+==================================================================
+git checkout -b pod_branch

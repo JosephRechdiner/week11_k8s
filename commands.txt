@@ -1,0 +1,29 @@
+git clone https://github.com/JosephRechdiner/week11_k8s.git
+python -m venv .venv
+.venv\Scripts\activate
+
+downloaded yosef repo(did not clone)
+added all files to the root directory
+==================================================================
+Branch:
+==================================================================
+git checkout -b init_branch
+git add .
+git commit -m "added streamli_minikube_app"
+pip install -r requirements.txt
+streamlit run main.py
+git add .
+git commit -m "added md file for all init files added"
+
+git push -u origin init_branch
+went on github to merge pull request
+
+went back to local vscode
+git checkout main
+git pull origin main
+==================================================================
+Branch:
+==================================================================
+git checkout -b Dockerfile_branch
+git add .
+git commit -m "added commands.txt file"

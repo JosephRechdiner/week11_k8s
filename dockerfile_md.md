@@ -1,4 +1,5 @@
 ## Dockerfile 
 
 # Purpose:
-The branch is reaponsible for initializing the app files before applying it to k8s.
+The file is responsible for creating the app images for container creation.
+exposing port 8080

@@ -37,3 +37,20 @@ git commit -m "added to command file"
 Branch:
 ==================================================================
 git checkout -b pod_branch
+git add .
+git commit -m "added service.yaml file"
+kubectl apply -f .
+kubectl get pods
+kubectl get services
+kubectl describe streamlit
+minikube service streamlit
+minikube logs streamlit
+git add .
+git commit -m "added service"
+git branch
+git push -u service_branch
+==================================================================
+Branch:
+==================================================================
+git checkout -b screenshot_branch
+downloaded the screanshot and added to project
